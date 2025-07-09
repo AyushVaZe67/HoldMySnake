@@ -1,5 +1,5 @@
-file = open('file.txt','w')
+file = open('file2.txt','w')
 
-file.write('Hello Mia')
+file.write('Hello Mia, How are you?')
 
 file.close()
