@@ -19,3 +19,10 @@ if list1 == list2:
     print('Given string is palindrome')
 else:
     print('Given string is not palindrome')
+
+
+
+if text1 == text1[::-1]:
+    print('Given string is palindrome')
+else:
+    print('Given string is not palindrome')
