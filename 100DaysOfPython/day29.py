@@ -4,3 +4,5 @@ def square(n):
 
 print(square(3))
 print(square.__doc__)
+
+import this
