@@ -1,9 +1,9 @@
-x = 40
-print(x)
+num1 = 50
+print(num1)
 
 def f1():
-    x = 50
-    print(x)
-
+    global num1
+    num1 = 20
+    print(num1)
 
 f1()
