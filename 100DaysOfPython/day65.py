@@ -8,3 +8,9 @@ class Math:
     @staticmethod
     def add(a,b):
         return a + b
+
+
+a1 = Math(11)
+a1.addtonum(2)
+print(a1.num)
+print(a1.add(1,2))
