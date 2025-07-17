@@ -8,6 +8,7 @@ class Employee:
         print(self.name , self.raise_amount, self.company_name)
 
 emp1 = Employee('Ayush')
+emp1.company_name = 'Amazon'
 emp1.showDetails()
 
 emp2 = Employee('Mia')
