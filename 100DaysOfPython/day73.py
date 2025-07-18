@@ -11,7 +11,11 @@ class Person:
     def __str__(self):
         return f'The name of person is {self.name}'
 
+    def __repr__(self):
+        return f'{self.name}'
+
 p1 = Person('Ayush')
 print(p1.name)
 print(len(p1))
 print(str(p1))
+print(repr(p1))
