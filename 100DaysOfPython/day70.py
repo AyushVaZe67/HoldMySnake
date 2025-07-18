@@ -5,7 +5,7 @@ class Person:
 
     @classmethod
     def fromStr(cls,string):
-        return cls(s1.split('-')[0],s1.split('-')[1])
+        return cls(s1.split('-')[0],int(s1.split('-')[1]))
 
 
 
