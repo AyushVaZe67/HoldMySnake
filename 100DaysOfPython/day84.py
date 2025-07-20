@@ -1,11 +1,11 @@
 import time
 def whileLopp():
     i = 0
-    while i < 500000:
+    while i < 50000:
         i += 1
 
 def forLoop():
-    for i in range(500000):
+    for i in range(50000):
         pass
 
 
@@ -19,3 +19,6 @@ print(time.time() - init)
 
 
 print(time.time())
+
+t1 = time.localtime()
+print(t1)
